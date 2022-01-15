@@ -26,6 +26,7 @@ Most people hold a neutral attitude when their tweets revolves around Dr. Robert
 <img src="https://github.com/PurpleGrace/Metis_NLP_DR_ROBERT_MALONE_Github/blob/main/Compund%20score.png" alt="Compund Score Histogram">
 
 
+The Baseline top modeling shoes a initial topics like the following:
+<img src="https://github.com/PurpleGrace/Metis_NLP_DR_ROBERT_MALONE_Github/blob/main/Baseline%20topic%20modeling.png">
 
 ### Moving Forward
-Through EDA and future regression model, investors can recognize the properties (combination with zip code, property type, square footage, and etc) with good investment potentials, so that they can make a quick investment decision based on solid scientific research result.
