@@ -1,6 +1,6 @@
 # NLP & Unsupervised Learning Project MVP
 
-## What about Dr. Robert Malone? -- Analysis after his ban by twitter
+## What people talk about Dr. Robert Malone? -- NLP Analysis after his ban by twitter
 
 This project is to find what people are talking about Dr. Robert Malone on twitter recently.
 Who is Dr. [Robert Malone](https://en.wikipedia.org/wiki/Robert_W._Malone)? He is a virologist and immunologist. I never heard about him until his recent remarks about warning parents to be prudent to decide if to give their children Covid_19 shots. And later one of his interviews went virus, which caused his ban from Twitter. I would like to know that when people mention Robert Malone and the ban, what  their main topics are? Positive or Negative?
