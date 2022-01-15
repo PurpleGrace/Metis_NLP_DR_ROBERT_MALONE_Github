@@ -31,6 +31,8 @@ The Baseline top modeling shoes a initial topics like the following:
 
 ### Moving Forward
 
+- Try use spacy package do better text preprocessing.
 - Try do analysis for people hold different attitude by using their location and author description.
-- Try to use different vectorization and topic modeling algorithm with tuning hyper parameters to find topics more interpretable.
+- Try to use different vectorization and topic modeling algorithm/ packages with tuning hyper parameters to find topics more interpretable.
+- Try DeepMoji for Mojies in the text 
 - Using clustering techniques to find users with similar opinion/attitude towards Dr. Robert Malone.
