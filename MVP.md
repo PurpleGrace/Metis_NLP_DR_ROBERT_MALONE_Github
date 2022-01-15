@@ -30,3 +30,7 @@ The Baseline top modeling shoes a initial topics like the following:
 <img src="https://github.com/PurpleGrace/Metis_NLP_DR_ROBERT_MALONE_Github/blob/main/Baseline%20topic%20modeling.png">
 
 ### Moving Forward
+
+- Try do analysis for people hold different attitude by using their location and author description.
+- Try to use different vectorization and topic modeling algorithm with tuning hyper parameters to find topics more interpretable.
+- Using clustering techniques to find users with similar opinion/attitude towards Dr. Robert Malone.
