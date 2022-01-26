@@ -1,5 +1,5 @@
 # NLP and Unsupervised Learning Project
-## What people says about Dr. Malone
+## What people say about things related to Dr. Malone?
 
 ### Abstract
 This project is to find what people are talking about Dr. Robert Malone on twitter recently.
@@ -19,7 +19,6 @@ The dataset is obtained from Twitter by using Tweepy API, including 20k+ tweets,
 - **Topic modeling** :LSA,NMF,LDA (only NMF is presented)
 - **Clustering**  :KM Clustering
 
-
 ### tools
 - Numpy and Pandas: data manipulation.
 - Matplotlib /Seaborn : plotting.
@@ -29,6 +28,9 @@ The dataset is obtained from Twitter by using Tweepy API, including 20k+ tweets,
 
 - Scikit-learn: NMF, KM
 - vaderSentiment: Sentiment analysis
+
+### Result
+By using aforementioned tools and algorithms, we found out that in general people hold a neutral attitude when they talked about things related to Dr. Malone. Also with top modeling, we divide users into 12 groups according to their self description ; split tweets into 15 topics related to Dr.Malone. 
 
 
 ### Communications
