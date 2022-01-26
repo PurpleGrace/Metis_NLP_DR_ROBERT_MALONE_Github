@@ -1,14 +1,17 @@
-# Classification Project Write-up
-## Will The Booking For Hotel Reservation Be Canceled?
+# NLP and Unsupervised Learning Project
+## What people says about Dr. Malone
 
 ### Abstract
-Every hotel in the world faces a same isuue in its daily operation, that is, there is a possible people will cancel their booking. Too many cancellations will obviously have negative impact on the hotel's profit and revenue. But how possible is a booking will be cancled? What features can help find potential cancellations? And what hotel can do to decrease cancelation rate or to avoid cancelation? In this project, classification models are used to make prediction of hotel booking cancelation, and suggestions to help decrease cancelation rate will also be provided.
+This project is to find what people are talking about Dr. Robert Malone on twitter recently.
+Who is Dr. [Robert Malone](https://en.wikipedia.org/wiki/Robert_W._Malone)? He is a virologist and immunologist. I never heard about him until his recent remarks about warning parents to be prudent if to give their children Covid_19 shots. And later one of his interviews went virus, which caused his ban from Twitter. I would like to know that when people mention Robert Malone, what  their main topics are? Are they holding a positive or a negative attitude?
 
 ### Design
-The project is designed to help hotels to predict if a booking will be canceled, find potential related features with booking cancelation, thus may adopt appropriate measures to decrease cancelation rate, and to increase profit.
+The project will use natural language processing and Unsupervised learning techiniques to do analysis on people't tweets which are pulled by using Tweepy API. User's self description give us a hint what that person values most, their personality, hobby, thought etc. Topic modeling are performed on those two group of text dataset. Also we use Vader to do sentiment analysis for people's attitude when they talk about something.
 
 ### Data
- The dataset is obtained from [Kaggle](https://www.kaggle.com/jessemostipak/hotel-booking-demand), which is comporised of over 119k observations and 32 features.  The data is a mixture of quantitative and categorical features and the target is a binary value of 0 and 1, with 0 means no cancelation and 1 represents the booking is canceled. Some features highlights include ```lead_time```(Number of days that elapsed between the entering date of the booking into the PMS and the arrival date), ```total_of_special_requests```(Number of special requests made by the customer),```assigned_room_type```,```adults```,```children```,```babies``` and etc. Some categorical features are transfered to dummy varibles and combined into classification models.
+
+The dataset is obtained from Twitter by using Tweepy API, including 20k+ tweets, self descriptions, followers, following, retweets and etc. Due to limited access to twitter for my developer account, I am not able to pull data morn than 7 days earlier. So the analysis is only focus on the recent week people's subjects and topics related to Dr. Malone. The latest tweets was create at 2022-01-14 17:47:15+00:00 and earliest was at 2022-01-07 17:53:24+00:00. For this project, we put out attention on Tweets and self description text.
+
 
 ### Algorithms
 - **Feature Engineering**
@@ -25,17 +28,7 @@ k-nearest neighbors,Logistic regression, decision trees,naive bayes and various 
 For this analysis, we would like to decrease both false positive and false negative rate. False positive happens when hotel incorrectly classifies on-cancelation booking as cancelation case, thus might leads to overbooking; on the other hand, false negative is the model incorrectly classifies cancled booking as non-cancelation case, which might lead to underbooking. Therefore, the project seeks to both good ```precison``` and ```recall measurement```, in this case, ```f1```score which combines both becomes the main metrics of our model.
 
 - **Result**
-  - Final random forest 5 fold cross validation:
-    - f1 score:0.88136
-  - Hold out:
-    - accuracy: 0.86515:
-    - precision: 0.88939:
-    - recall: 0.73088:
-    - f1: 0.80238:
-    - confusion matrix of test data is:
 
-      [[14121   813]   
-      [ 2407  6537]]
 
 ### tools
 - Numpy and Pandas for data manipulation.
