@@ -29,7 +29,7 @@ The dataset is obtained from Twitter by using Tweepy API, including 20k+ tweets,
 - vaderSentiment: Sentiment analysis
 
 ### Result
-By using aforementioned tools and algorithms, we found out that at first glance people hold a neutral attitude when they talked about things related to Dr. Malone. However, with top modeling technique, after we divide users into 12 groups according to their self description and split tweets into 15 topics, we found out that different group of people hold very different opioions.
+By using aforementioned tools and algorithms, we found out that at first glance people hold a neutral attitude when they talked about things related to Dr. Malone. However, with topic modeling technique, after we divide users into 12 groups according to their self description and split tweets into 15 topics, we found out that different group of people hold very different opioions.
 
 
 ### Communications
